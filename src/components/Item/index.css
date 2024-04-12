@@ -1,0 +1,75 @@
+.item-container {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    width: 800px;
+    border-radius: 15px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.icon-day-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nature-temperature-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.day-css {
+    margin-left: 10px;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+
+.nature {
+    font-family: "Roboto";
+    color: #2E2E2E;
+    margin-right: 10px;
+}
+
+.nature-temperature {
+    font-family: "Roboto";
+    margin-left: 10px;
+    color: #5E5E5E;
+}
+
+.another-items-container {
+    list-style-type: none;
+    padding-left: 0px;
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-another-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+    margin: 3px 5px;
+}
+
+.qun {
+    font-family: "Roboto";
+    color: #656565;
+}
+
+.ans {
+    font-family: "Roboto";
+    color: #656565;
+    font-weight: bold;
+}
